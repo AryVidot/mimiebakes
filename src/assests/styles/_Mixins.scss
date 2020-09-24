@@ -1,0 +1,26 @@
+@mixin gridLayout {
+  width: 90%;
+  display: grid;
+  margin: 0 auto;
+  grid-gap: 1.2em;
+}
+@mixin btn {
+  text-decoration: none;
+  color: black;
+  border: transparent 2px solid;
+  background: white;
+  &:hover {
+    border: black 2px solid;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+  }
+}
+@mixin flexCenter() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin bckgdPosition {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

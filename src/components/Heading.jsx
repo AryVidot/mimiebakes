@@ -2,7 +2,7 @@ import React from "react";
 
 function Heading() {
   return (
-    <div>
+    <div class="sticky-top bg-white" id="sticky">
       <ul class="nav justify-content-center">
         <li class="nav-item">
           <a class="nav-link active" href="#home">
@@ -25,6 +25,8 @@ function Heading() {
           </a>
         </li>
       </ul>
+      {/* Nav Toggle below */}
+
       <hr></hr>
     </div>
   );
