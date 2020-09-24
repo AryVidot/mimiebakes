@@ -1,0 +1,50 @@
+// use mixin for grid:
+@mixin gridLayout {
+  width: 90%;
+  display: grid;
+  margin: 0 auto;
+}
+@mixin btn {
+  text-decoration: none;
+  color: black;
+  border: transparent 2px solid;
+  background: white;
+  &:hover {
+    border: black 2px solid;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+  }
+}
+
+.wrapper {
+  @include gridLayout();
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.2em;
+  grid-template-rows: 70vh;
+}
+.item {
+  background-image: url(https://images.pexels.com/photos/19640/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h2 {
+    line-height: 1.4em;
+    text-align: center;
+    font-weight: bold;
+  }
+  a {
+    @include btn();
+  }
+}
+.item:nth-child(even) {
+  background: wheat;
+}
+.item3 {
+  background-image: url(https://images.pexels.com/photos/913136/pexels-photo-913136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
