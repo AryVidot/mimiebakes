@@ -6,7 +6,10 @@
 }
 @mixin btn {
   text-decoration: none;
+  margin: 0;
+  padding: 1em 2em;
   color: black;
+  font-weight: bold;
   border: transparent 2px solid;
   background: white;
   &:hover {

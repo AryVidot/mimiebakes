@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./logo.scss";
 const Logo = () => {
   return (
     <div>
-      <h1>MIMIE BAKES.</h1>
+      <h1 className="logo">MIMIE BAKES.</h1>
     </div>
   );
 };

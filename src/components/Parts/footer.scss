@@ -1,0 +1,10 @@
+@import "../../assests/styles/scss/style.scss";
+
+$socialColor: rgb(255, 221, 210);
+
+.si-c {
+  color: $socialColor;
+  &:hover {
+    color: lighten($socialColor, 2);
+  }
+}

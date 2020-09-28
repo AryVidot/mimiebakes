@@ -1,6 +1,6 @@
 import React from "react";
-import "./home.scss";
-const Home = () => {
+import "./hero.scss";
+const Hero = () => {
   return (
     <section className="wrapper">
       <div className="item item1"></div>
@@ -18,4 +18,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hero;
