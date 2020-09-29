@@ -1,15 +1,12 @@
-import React from "react";
+// import React from "react";
 
-import Home from "./Pages/Home";
-import Content from "./Content";
-const Main = (props) => {
-  return (
-    <div>
-      <Content>
-        <Home />
-      </Content>
-    </div>
-  );
-};
+// import Home from "./Pages/Home";
+// const Main = () => {
+//   return (
+//     <div>
+//       <Home />
+//     </div>
+//   );
+// };
 
-export default Main;
+// export default Main;

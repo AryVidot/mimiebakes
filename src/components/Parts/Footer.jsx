@@ -1,10 +1,11 @@
 import React from "react";
 import { FaInstagram, FaPinterest, FaFacebook } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
+import { Link } from "react-router-dom";
 import "./footer.scss";
 const Footer = () => {
   return (
-    <footer className="page-footer font-small white">
+    <footer className="page-footer font-small white ">
       <hr></hr>
       <h2>Follow Me </h2>
       <IconContext.Provider
@@ -12,7 +13,7 @@ const Footer = () => {
       >
         <div className="container">
           <div className="row">
-            <div className="col-md-12 py-3">
+            <div className="col-md-12 py-2">
               <div className="mb-2 flex-center">
                 <a
                   className="fb-ic si-c"
@@ -44,9 +45,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="footer-copyright .bg-light text-center py-3">
+        <div className="footer-copyright .bg-light text-center py-2">
           © 2020 Copyright:
-          <a href="https://mdbootstrap.com/"> MimieBakes.com</a>
+          <Link to="/Home"> MimieBakes.com</Link>
         </div>
       </IconContext.Provider>
     </footer>

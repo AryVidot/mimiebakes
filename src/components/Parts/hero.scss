@@ -1,4 +1,5 @@
 @import "../../assests/styles/scss/Mixins";
+@import "../../assests/styles/scss/_Variables";
 
 .wrapper {
   @include gridLayout();
@@ -25,7 +26,7 @@
 }
 
 .item:nth-child(even) {
-  background: rgb(255, 221, 210);
+  background: $panelColor;
 }
 
 .item3 {

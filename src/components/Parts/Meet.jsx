@@ -1,17 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./meet.scss";
 const Meet = () => {
   return (
     <section className="meet">
       <div className="meet__item about">
-        <a href="#about">
+        <Link to="/about">
           <span>Meet Mimie</span>
-        </a>{" "}
+        </Link>{" "}
       </div>
       <div className="meet__item contact">
-        <a href="#contact">
+        <Link to="/contact">
           <span>Contact Me</span>
-        </a>
+        </Link>
       </div>
     </section>
   );

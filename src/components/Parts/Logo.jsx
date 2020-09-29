@@ -3,7 +3,9 @@ import "./logo.scss";
 const Logo = () => {
   return (
     <div>
-      <h1 className="logo">MIMIE BAKES.</h1>
+      <h1 className="logo" id="logo">
+        MIMIE BAKES.
+      </h1>
     </div>
   );
 };

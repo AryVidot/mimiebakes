@@ -4,6 +4,11 @@
   margin: 0 auto;
   grid-gap: 1.2em;
 }
+
+@mixin hrShort {
+  width: 3em;
+}
+
 @mixin btn {
   text-decoration: none;
   margin: 0;

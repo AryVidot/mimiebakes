@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./hero.scss";
 const Hero = () => {
   return (
@@ -9,9 +11,9 @@ const Hero = () => {
         <h2>
           Bespoke Cakes <br></br>For <br></br>All Occasions
         </h2>{" "}
-        <a href="#pricing">
+        <Link to="/pricing">
           <span>Order Here</span>
-        </a>
+        </Link>
       </div>
       <div className="item item3"></div>
     </section>

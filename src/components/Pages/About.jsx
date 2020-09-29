@@ -1,17 +1,39 @@
 import React from "react";
-import Heading from "../Parts/Heading";
-import Footer from "../Footer";
+
+import "../../assests/styles/scss/about.scss";
+import Container from "../Container";
+
+import Footer from "../Parts/Footer";
+
 const About = () => {
   return (
-    <div>
-      <Heading />
-      <div className="about" id="about">
-        <h2>About Me</h2>
-        <hr></hr>
-        <h3>Mimie Hollist - Home Baker</h3>
+    <Container>
+      <div>
+        <div className="about" id="about">
+          <h2>About Me</h2>
+          <hr className="hr-short"></hr>
+          <h3>Mimie Hollist - Home Baker</h3>
+          <div className="mimie-portrait"></div>
+          <div className="about__content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+              corporis voluptatibus adipisci amet dicta necessitatibus, sed est
+              cupiditate obcaecati impedit aperiam maxime assumenda, repudiandae
+              nulla sequi tempore eum quidem laborum accusantium? Ipsa iure
+              aliquam architecto sunt ea veritatis reprehenderit expedita.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+              corporis voluptatibus adipisci amet dicta necessitatibus, sed est
+              cupiditate obcaecati impedit aperiam maxime assumenda, repudiandae
+              nulla sequi tempore eum quidem laborum accusantium? Ipsa iure
+              aliquam architecto sunt ea veritatis reprehenderit expedita.
+            </p>
+          </div>
+        </div>
       </div>
       <Footer />
-    </div>
+    </Container>
   );
 };
 
