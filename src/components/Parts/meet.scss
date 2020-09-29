@@ -16,14 +16,13 @@
   &:nth-child(even) {
     background-image: url(https://images.pexels.com/photos/4191621/pexels-photo-4191621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   }
-  a {
-    @include btn();
-  }
 }
-.about,
-.contact {
+
+.about-m,
+.contact-m {
   position: relative;
   a {
+    @include btn();
     position: absolute;
     right: 5%;
     bottom: 10%;

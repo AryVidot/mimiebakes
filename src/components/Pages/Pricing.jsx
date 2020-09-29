@@ -5,7 +5,6 @@ import Container from "../Container";
 import Footer from "../Parts/Footer";
 
 const Pricing = (props) => {
-  console.log(props);
   return (
     <Container>
       <div>

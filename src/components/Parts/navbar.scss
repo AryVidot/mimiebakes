@@ -1,3 +1,18 @@
-.navb {
-  position: sticky;
+@import "../../assests/styles/scss/Mixins";
+@import "../../assests/styles/scss/Variables";
+
+.menu-toggle {
+  display: none;
+}
+.custom-toggler .navbar-toggler-icon {
+  border-color: $panelColor;
+}
+
+@media (max-width: 500px) {
+  .menu-toggle {
+    display: initial;
+  }
+  .menu-b {
+    display: none;
+  }
 }
