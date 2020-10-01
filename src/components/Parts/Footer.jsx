@@ -17,7 +17,7 @@ const Footer = () => {
               <div className="mb-2 flex-center">
                 <a
                   className="fb-ic si-c"
-                  href="https://www.facebook.com/mimiehollist"
+                  href="https://www.facebook.com/r.php"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -26,7 +26,7 @@ const Footer = () => {
 
                 <a
                   className="ins-ic si-c"
-                  href="https://www.instagram.com/mimiehollist/"
+                  href="https://www.instagram.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -34,7 +34,7 @@ const Footer = () => {
                 </a>
                 <a
                   className="pin-ic si-c"
-                  href="https://www.pinterest.co.uk/mimiehollist/"
+                  href="https://www.pinterest.co.uk/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

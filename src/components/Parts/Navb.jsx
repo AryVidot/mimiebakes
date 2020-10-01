@@ -37,8 +37,8 @@ function Navb() {
         className="menu-toggle"
         collapseOnSelect
         expand="lg"
-        bg="dark"
-        variant="dark"
+        bg="white"
+        variant="light"
       >
         <Navbar.Brand href="#home">Mimie Bakes.</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
