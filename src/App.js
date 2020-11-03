@@ -19,8 +19,6 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/pricing" component={Pricing} />
         <Route path="/contact" component={Contact} />
-
-        {/* <Main /> */}
       </Container>
     </Router>
   );

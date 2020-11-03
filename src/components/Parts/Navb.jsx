@@ -4,11 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import "./navbar.scss";
 import { withRouter, Link } from "react-router-dom";
 
-// import Home from "../Pages/Home";
-// import About from "../Pages/About";
-// import Pricing from "../Pages/Pricing";
-// import Contact from "../Pages/Contact";
-
 function Navb() {
   return (
     <section>
@@ -41,14 +36,6 @@ function Navb() {
           </Navbar.Collapse>
         </Navbar>
       </div>
-      {/* <div>
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/pricing" component={Pricing} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
-      </div> */}
       <hr></hr>
     </section>
   );
